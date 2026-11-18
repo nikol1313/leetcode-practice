@@ -1,6 +1,3 @@
-"""{{NUMBER}}. {{TITLE}}"""
-
-
 class Solution:
-    def __METHOD__(self, nums: list[int]) -> int:
+    def solve(self, nums: list[int]) -> int:
         pass

@@ -1,4 +1,1 @@
-/**
- * {{NUMBER}}. {{TITLE}}
- */
-export function __METHOD__() {}
+export function solve() {}

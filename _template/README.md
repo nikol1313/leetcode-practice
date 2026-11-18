@@ -1,12 +1,9 @@
-# {{NUMBER}}. {{TITLE}}
+# 0. Problem Name
 
-- **Link:** https://leetcode.com/problems/{{SLUG}}/
-- **Difficulty:** {{DIFFICULTY}}
-- **Topic:** {{TOPIC}}
+- **Link:** https://leetcode.com/problems/
+- **Difficulty:** Easy / Medium / Hard
 
 ## Approach
-
-<!-- Describe the idea in a few sentences. -->
 
 ## Complexity
 
