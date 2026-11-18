@@ -1,4 +1,0 @@
-[tool.pytest.ini_options]
-testpaths = ["problems"]
-# lets every problem folder have its own solution.py / test_solution.py
-addopts = "--import-mode=importlib"

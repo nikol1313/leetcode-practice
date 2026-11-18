@@ -1,1 +1,1 @@
-export function solve() {}
+var solve = function () {};

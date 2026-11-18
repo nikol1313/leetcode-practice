@@ -1,9 +1,15 @@
 # LeetCode Practice
 
-[![tests](https://github.com/nikol1313/leetcode-practice/actions/workflows/tests.yml/badge.svg)](https://github.com/nikol1313/leetcode-practice/actions/workflows/tests.yml)
+My LeetCode solutions in **Python** and **JavaScript**, organized by topic, each with a write-up
+of how I thought through the problem.
 
-DSA practice in **Python** and **JavaScript**, organized by topic. Every solution is tested
-(pytest + Vitest) and checked in CI.
+## Adding a problem
+
+```bash
+cp -r _template problems/arrays_hashing/0001_two_sum
+```
+
+Paste the accepted solution(s), delete the language file you didn't use, and fill in `README.md`.
 
 Topics: `arrays_hashing`, `two_pointers`, `sliding_window`, `stack`, `binary_search`,
 `linked_list`, `trees`, `graphs`, `dynamic_programming`, `greedy`.

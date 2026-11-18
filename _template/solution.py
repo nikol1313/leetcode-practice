@@ -1,3 +1,3 @@
 class Solution:
-    def solve(self, nums: list[int]) -> int:
+    def solve(self):
         pass
