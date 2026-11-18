@@ -1,0 +1,23 @@
+name: update readme
+
+on:
+  push:
+    branches: [main]
+    paths: ['problems/**']
+
+permissions:
+  contents: write
+
+jobs:
+  progress:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 .github/scripts/update_readme.py
+      # pushes made with GITHUB_TOKEN don't trigger workflows, so this can't loop
+      - run: |
+          git diff --quiet README.md && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git commit -am "docs: update progress"
+          git push
