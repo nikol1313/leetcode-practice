@@ -13,7 +13,6 @@ Each problem follows a consistent format:
 
 - **Problem:** [LeetCode Link](https://leetcode.com/problems/)
 - **Difficulty:** Easy / Medium / Hard
-- **Date Solved:** YYYY-MM-DD
 
 **Problem**
 
