@@ -60,5 +60,5 @@ Things I got wrong, alternative approaches, and key takeaways.
 **Easy:** 0 · **Medium:** 0 · **Hard:** 0 · **Total:** 0
 
 | # | Problem | Difficulty | Topic | Python | JavaScript |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 <!-- progress:end -->
