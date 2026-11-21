@@ -3,7 +3,7 @@ name: update readme
 on:
   push:
     branches: [main]
-    paths: ['problems/**']
+    paths: ['problems/**', '.github/**']
 
 permissions:
   contents: write
