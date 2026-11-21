@@ -57,9 +57,10 @@ Things I got wrong, alternative approaches, and key takeaways.
 <sub>Automatically updated by a GitHub Action on every push.</sub>
 
 <!-- progress:start -->
-**Easy:** 1 · **Medium:** 0 · **Hard:** 0 · **Total:** 1
+**Easy:** 2 · **Medium:** 0 · **Hard:** 0 · **Total:** 2
 
 | # | Problem | Difficulty | Topic | Python | JavaScript |
 | --- | --- | --- | --- | --- | --- |
+| 283 | [Move Zeroes](problems/two_pointers/283.py) | Easy | two_pointers | [✅](problems/two_pointers/283.py) |  |
 | 455 | [Assign Cookies](problems/two_pointers/455.py) | Easy | two_pointers | [✅](problems/two_pointers/455.py) |  |
 <!-- progress:end -->
