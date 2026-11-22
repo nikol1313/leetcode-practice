@@ -2,7 +2,7 @@
 // link: https://leetcode.com/problems/container-with-most-water/
 // Difficulty: Medium
 
-// description: we need to find the are betwen two numbers (walls)
+// description: we need to find the area betwen two numbers (walls)
 // that can hold the largest amount of water
 // to calculate distance we nee distance between two numbers and the
 // shortest number between two numbers, because the water will spill
