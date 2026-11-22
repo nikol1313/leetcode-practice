@@ -57,10 +57,11 @@ Things I got wrong, alternative approaches, and key takeaways.
 <sub>Automatically updated by a GitHub Action on every push.</sub>
 
 <!-- progress:start -->
-**Easy:** 2 · **Medium:** 0 · **Hard:** 0 · **Total:** 2
+**Easy:** 3 · **Medium:** 0 · **Hard:** 0 · **Total:** 3
 
 | # | Problem | Difficulty | Topic | Python | JavaScript |
 | --- | --- | --- | --- | --- | --- |
+| 26 | [Remove Dublicates From Sorted Array.](problems/two_pointers/26.js) | Easy | two_pointers |  | [✅](problems/two_pointers/26.js) |
 | 283 | [Move Zeroes](problems/two_pointers/283.py) | Easy | two_pointers | [✅](problems/two_pointers/283.py) |  |
 | 455 | [Assign Cookies](problems/two_pointers/455.py) | Easy | two_pointers | [✅](problems/two_pointers/455.py) |  |
 <!-- progress:end -->
