@@ -1,5 +1,6 @@
 // Problem: containers with water 
 // link: https://leetcode.com/problems/container-with-most-water/
+// Difficulty: Medium
 
 // description: we need to find the are betwen two numbers (walls)
 // that can hold the largest amount of water
