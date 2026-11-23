@@ -57,11 +57,12 @@ Things I got wrong, alternative approaches, and key takeaways.
 <sub>Automatically updated by a GitHub Action on every push.</sub>
 
 <!-- progress:start -->
-**Easy:** 3 · **Medium:** 1 · **Hard:** 0 · **Total:** 4
+**Easy:** 3 · **Medium:** 2 · **Hard:** 0 · **Total:** 5
 
 | # | Problem | Difficulty | Topic | Python | JavaScript |
 | --- | --- | --- | --- | --- | --- |
 | 11 | [Containers With Water](problems/two_pointers/11.js) | Medium | two_pointers |  | [✅](problems/two_pointers/11.js) |
+| 15 | [3Sum](problems/two_pointers/15.js) | Medium | two_pointers |  | [✅](problems/two_pointers/15.js) |
 | 26 | [Remove Dublicates From Sorted Array.](problems/two_pointers/26.js) | Easy | two_pointers |  | [✅](problems/two_pointers/26.js) |
 | 283 | [Move Zeroes](problems/two_pointers/283.py) | Easy | two_pointers | [✅](problems/two_pointers/283.py) |  |
 | 455 | [Assign Cookies](problems/two_pointers/455.py) | Easy | two_pointers | [✅](problems/two_pointers/455.py) |  |
