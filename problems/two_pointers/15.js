@@ -70,7 +70,7 @@ console.log(res)
  *  Pick = -2 ,  we need L + R = 2
  *
  *     -2   0   0   1   2   2
- *      P   L               R      0 + 2 = 2 → TEAM (-2, 0, 2)
+ *      P   L               R      0 + 2 = 2 = TEAM (-2, 0, 2)
  *
  *  After saving, we do left++ and right--:
  *
