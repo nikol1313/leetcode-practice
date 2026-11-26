@@ -5,7 +5,7 @@
 // Description: we have initial starting power and list of tokens
 // and we start with score = 0. 
 // we have to return maximum value of score.
-// rules are:
+// // rules are:
 // face-up(score = 0): we can decrease our power in exchange of 1 score
 // face-down(score = 1): we can increase our power in exchange of [..] power 
 
@@ -34,9 +34,10 @@ function bagOfTokens(tokens, power) {
             score++;
             // move on cuz we bought it already
             left++;
-            // if score is 1 we are forced to buy the token
-            // in exchange of the score
-            } else if (score >= 1) {
+            // my solution was keeping failing because i was missing
+            // left < right statement also which means
+            // before playing face-down at least two tokens remain:
+            } else if (score >= 1 && left < right) {
                 // buy most expensive one
                 power = power + tokens[right];
                 // score - 1
@@ -46,12 +47,12 @@ function bagOfTokens(tokens, power) {
             // i added this cuz in one of leetcodes test cases
             // the description said the if we have initial power
             // smaller than tokens[0] we return 0.  
-            } else if (power < tokens[left]) {
-                return 0;
-            }
+            } else {
+                break
         }
-    return score
     }
+    return score
+}
 
 const result = bagOfTokens(tokens, power);
 console.log(result)
