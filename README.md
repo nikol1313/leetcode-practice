@@ -57,7 +57,7 @@ Things I got wrong, alternative approaches, and key takeaways.
 <sub>Automatically updated by a GitHub Action on every push.</sub>
 
 <!-- progress:start -->
-**Easy:** 3 · **Medium:** 3 · **Hard:** 0 · **Total:** 6
+**Easy:** 3 · **Medium:** 4 · **Hard:** 0 · **Total:** 7
 
 | # | Problem | Difficulty | Topic | Python | JavaScript |
 | --- | --- | --- | --- | --- | --- |
@@ -67,4 +67,5 @@ Things I got wrong, alternative approaches, and key takeaways.
 | 167 | [Two sum 2](problems/two_pointers/167.js) | Medium | two_pointers |  | [✅](problems/two_pointers/167.js) |
 | 283 | [Move Zeroes](problems/two_pointers/283.py) | Easy | two_pointers | [✅](problems/two_pointers/283.py) |  |
 | 455 | [Assign Cookies](problems/two_pointers/455.py) | Easy | two_pointers | [✅](problems/two_pointers/455.py) |  |
+| 948 | [Bag Of Tokens](problems/two_pointers/948.js) | Medium | two_pointers |  | [✅](problems/two_pointers/948.js) |
 <!-- progress:end -->
